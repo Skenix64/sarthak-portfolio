@@ -534,7 +534,7 @@ export default function SarthakPortfolio() {
                 <a
                   href="https://github.com/Skenix64"
                   target="_blank"
-                  rel="noreferrer"
+                  rel="noopener noreferrer"
                   className={`px-4 py-2 rounded-xl border ${
                     resumeMode
                       ? "bg-white text-slate-900 border-slate-300"
@@ -613,7 +613,7 @@ export default function SarthakPortfolio() {
         </header>
 
         {/* About */}
-        <section id="about" className="max-w-6xl mx-auto px-4 pb-20">
+        <section id="about" className="max-w-6xl mx-auto px-4 pb-20 scroll-mt-24">
           <SectionHeading title="About" subtitle="Engineer • Researcher • Builder" resumeMode={resumeMode} />
           <div className="grid md:grid-cols-3 gap-6">
             <Card resumeMode={resumeMode}>
@@ -649,7 +649,7 @@ export default function SarthakPortfolio() {
         </section>
 
         {/* Projects */}
-        <section id="projects" className="max-w-6xl mx-auto px-4 pb-20">
+        <section id="projects" className="max-w-6xl mx-auto px-4 pb-20 scroll-mt-24">
           <SectionHeading title="Projects" subtitle="A few things I’ve shipped and explored" resumeMode={resumeMode} />
           <div className="grid md:grid-cols-2 gap-6">
             {PROJECTS.map((p, idx) => (
@@ -696,7 +696,7 @@ export default function SarthakPortfolio() {
                       <a
                         href={p.link}
                         target="_blank"
-                        rel="noreferrer"
+                        rel="noopener noreferrer"
                         className={`${resumeMode ? "text-slate-700" : "text-sky-300"} hover:underline`}
                       >
                         View on GitHub
@@ -710,7 +710,7 @@ export default function SarthakPortfolio() {
         </section>
 
         {/* Experience */}
-        <section id="experience" className="max-w-6xl mx-auto px-4 pb-20">
+        <section id="experience" className="max-w-6xl mx-auto px-4 pb-20 scroll-mt-24">
           <SectionHeading
             title="Experience"
             subtitle="What I’ve learned by building in the real world"
@@ -746,7 +746,7 @@ export default function SarthakPortfolio() {
         </section>
 
         {/* Skills */}
-        <section id="skills" className="max-w-6xl mx-auto px-4 pb-20">
+        <section id="skills" className="max-w-6xl mx-auto px-4 pb-20 scroll-mt-24">
           <SectionHeading title="Skills" subtitle="Tools I use to think and build" resumeMode={resumeMode} />
           <Card resumeMode={resumeMode}>
             <div className="p-6">
@@ -769,7 +769,7 @@ export default function SarthakPortfolio() {
         </section>
 
         {/* Contact */}
-        <section id="contact" className="max-w-6xl mx-auto px-4 pb-24">
+        <section id="contact" className="max-w-6xl mx-auto px-4 pb-24 scroll-mt-24">
           <SectionHeading title="Contact" subtitle="Let’s build something game-changing" resumeMode={resumeMode} />
           <Card resumeMode={resumeMode}>
             <div className="p-6 grid md:grid-cols-3 gap-6 items-center">
@@ -792,7 +792,7 @@ export default function SarthakPortfolio() {
                   <a
                     href="https://github.com/Skenix64"
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className={`px-4 py-2 rounded-xl border ${
                       resumeMode
                         ? "bg-white text-slate-900 border-slate-300"
