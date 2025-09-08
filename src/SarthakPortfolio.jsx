@@ -573,13 +573,13 @@ export default function SarthakPortfolio() {
                 </a>
 
                 {/* Official logo pills (SVG/PNG in public/logos) */}
-                <LogoPill src="/logos/cmu.png" label="CMU" border={resumeMode ? "border-slate-300" : "border-red-400/30"} size="lg" />
-                <LogoPill src="/logos/gt.png"  label="GT"  border={resumeMode ? "border-slate-300" : "border-amber-400/30"} size="lg" />
+                <LogoPill src="logos/cmu.png" label="CMU" border={resumeMode ? "border-slate-300" : "border-red-400/30"} size="lg" />
+                <LogoPill src="logos/gt.png"  label="GT"  border={resumeMode ? "border-slate-300" : "border-amber-400/30"} size="lg" />
 
                 {/* Download PDF button (only in Resume Mode) */}
                 {resumeMode && (
                   <a
-                    href="/resume.pdf" // place your PDF at public/resume.pdf
+                    href="resume.pdf" // place your PDF at public/resume.pdf
                     className="ml-2 px-4 py-2 rounded-xl border border-slate-300 bg-white text-slate-900"
                     download
                   >
